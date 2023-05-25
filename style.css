@@ -1,0 +1,70 @@
+ @import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
+
+*::selection{
+    background-color: transparent;
+    color: #ecece2;
+    cursor:grab
+    }
+body{
+    background:  #D4C0A1;
+  }
+  h2{
+    font-family: 'Titan One';
+    display: flex;
+    justify-content: center;
+    font-size: 76px;
+    margin-bottom: 0;
+    margin-top: 2px;
+    color: #2e2b27 ;
+  }
+  p {
+    font-family: 'Playfair Display', serif;
+    max-width: 750px;
+    line-height: 1.1;
+    color: #2e2b27;
+    font-size: 25px;
+    margin: 0 auto;
+  }
+.box{
+    padding-top: 100px;
+}
+  summary {
+    position: absolute;
+    left: 0;
+    right: 0;
+  }
+  img{
+    margin-left: 3pc;
+    position: relative;
+  }
+  summary{
+    pointer-events: none;
+  }
+  a{
+    font-family: 'Playfair Display', serif;
+    display: flex;
+    font-size: 30px;
+    padding: 10px;
+    color: #2e2b27;
+    max-width: 750px;
+    text-decoration: none;
+    margin: 0 auto;
+  }
+  .right{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 150pt;
+    margin-right: 3pc;
+  }
+  .left{
+    position: absolute;
+    top: 75pt;
+    left: 0;
+    margin-top: 150pt;
+    margin-left: 3pc;
+  }
+a::selection{
+  text-decoration: none;
+}
